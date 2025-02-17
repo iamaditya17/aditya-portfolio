@@ -1,7 +1,7 @@
 import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
-
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
 import { styles } from "../styles";
 import { services } from "../constants";
 import { SectionWrapper } from "../hoc";
@@ -65,7 +65,7 @@ const About = () => {
           <img src={profilePic} alt="Profile" className="w-full h-half object-cover object-center" />
         </motion.div>
       </motion.div>
-
+      
       <div className='mt-20 flex flex-wrap gap-10'>
         <div className="w-full md:w-auto green-pink-gradient bg-tertiary rounded-[20px] p-5 shadow-card flex flex-wrap justify-center gap-4">
           {services.map((service, index) => (

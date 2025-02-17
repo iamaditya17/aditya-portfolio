@@ -21,23 +21,24 @@ import {
   bankReport,
   bsabt,
   threejs,
+  java,
+  python,
+  aws,
+  expressjs,
+  erpnext,
+  oracle,
+  postgresql,
+  powerBI,
+  terraform,
+  jQuery,
+  jwt,
+  mySql,
+  oraclePlSql,
+  microsoftSqlServer,
+  vite,
   logo,
 } from "../assets";
 
-
-import aws from '../assets/tech/aws.png';
-import expressjs from '../assets/tech/expressjs.png';
-import erpnext from '../assets/tech/erpnext.png';
-import oracle from '../assets/tech/oracle.png';
-import postgresql from '../assets/tech/postgresql.png';
-import powerBI from '../assets/tech/powerBI.png';
-import terraform from '../assets/tech/terraform.png';
-import jQuery from '../assets/tech/jQuery.png';
-import jwt from '../assets/tech/jwt.png';
-import mySql from '../assets/tech/mySql.png';
-import oraclePlSql from '../assets/tech/oraclePlSql.png';
-import microsoftSqlServer from '../assets/tech/microsoftSqlServer.png';
-import vite from '../assets/tech/vite.png';
 
 
 
@@ -95,6 +96,14 @@ const technologies = [
   {
     name: "JQuery",
     icon: jQuery,
+  },
+  {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Python",
+    icon: python,
   },
   {
     name: "React JS",
@@ -182,6 +191,30 @@ const technologies = [
   },
 ];
 
+const educationData = [
+  {
+    degree: "Bachelor of Technology in Computer Science and Technology",
+    institution: "Silicon University, Bhubaneswar",
+    year: "2020 - 2024",
+    details: [
+      "Focused on software development, data structures, algorithms, and database management systems.",
+      "Ranked within the top 5 of my branch."
+    ]
+  },
+  {
+    degree: "Intermediate in Science (12th grade)",
+    institution: "Maharishi College Of Natural Law, Bhubaneswar",
+    year: "2018 - 2020",
+    details: ["Specialized in Science with core subjects including Mathematics, Physics, and Chemistry."]
+  },
+  {
+    degree: "Secondary Education (10th grade)",
+    institution: "Vivekananda Shikshya Kendra, Bhubaneswar",
+    year: "2018",
+    details: ["Completed foundational education with a focus on science and mathematics."]
+  }
+];
+   
 const experiences = [
   {
     title: "Software Engineer",
@@ -298,4 +331,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, educationData, testimonials, projects };

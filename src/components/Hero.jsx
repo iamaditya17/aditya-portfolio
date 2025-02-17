@@ -32,15 +32,15 @@ const Hero = () => {
           Specializing in delivering creative and efficient solutions for modern web applications, cloud infrastructure management, and data-driven insights.
         </p>
         <a
-          href="../../public/Aditya Patra Resume new.pdf" 
-          download="Aditya_Patra_Resume.pdf" 
+          href="/aditya_patra_resume.pdf"
+          download="Aditya_Patra_Resume.pdf"
           className="px-4 py-2 border-2 border-[#915EFF] text-[#915EFF] font-semibold rounded-lg hover:bg-[#915EFF] hover:text-white transition-all"
         >
           Download Resume
         </a>
       </div>
 
-      <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+      <div className="absolute xs:bottom-20 bottom-32 w-full flex justify-center items-center">
         <a href="#about">
           <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
             <motion.div

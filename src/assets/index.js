@@ -20,6 +20,21 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import java from './tech/java.png';
+import python from './tech/python.png';
+import aws from './tech/aws.png';
+import expressjs from './tech/expressjs.png';
+import erpnext from './tech/erpnext.png';
+import oracle from './tech/oracle.png';
+import postgresql from './tech/postgresql.png';
+import powerBI from './tech/powerBI.png';
+import terraform from './tech/terraform.png';
+import jQuery from './tech/jQuery.png';
+import jwt from './tech/jwt.png';
+import mySql from './tech/mySql.png';
+import oraclePlSql from './tech/oraclePlSql.png';
+import microsoftSqlServer from './tech/microsoftSqlServer.png';
+import vite from './tech/vite.png';
 
 import SOUL from "./company/SOUL.png";
 import rumango from "./company/rumango.png";
@@ -52,6 +67,21 @@ export {
   tailwind,
   typescript,
   threejs,
+  java,
+  python,
+  aws,
+  expressjs,
+  erpnext,
+  oracle,
+  postgresql,
+  powerBI,
+  terraform,
+  jQuery,
+  jwt,
+  mySql,
+  oraclePlSql,
+  microsoftSqlServer,
+  vite,
   SOUL,
   rumango,
   smartters,

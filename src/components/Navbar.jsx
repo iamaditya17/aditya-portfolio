@@ -62,7 +62,7 @@ const Navbar = () => {
           {/* Download Resume link with different color */}
           <li className="text-[18px] font-medium cursor-pointer">
             <a
-              href="../../public/Aditya Patra Resume new.pdf"
+              href="/aditya_patra_resume.pdf"
               download="Aditya_Patra_Resume.pdf"
               className="text-[#915EFF] hover:text-white transition-colors"
             >
